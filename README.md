@@ -1,8 +1,8 @@
 # Kliqture
 
-Kliqture is a professional platform built to help businesses, brands, skilled professionals, and creatives showcase their work, discover opportunities, find talent, and collaborate remotely.
+Kliqture is a professional platform for businesses, brands, skilled professionals, and creatives to showcase their work, discover opportunities, find talent, and collaborate remotely.
 
-> The production source code for Kliqture is private. This repository is a public product and engineering case study.
+> The production source code is private. This repository is a public product and engineering case study.
 
 ---
 
@@ -12,7 +12,7 @@ Kliqture is a professional platform built to help businesses, brands, skilled pr
 
 I designed and developed Kliqture across mobile engineering, backend systems, product architecture, user experience, and production deployment.
 
-My work includes building the Flutter application, backend services, real-time experiences, opportunity and hiring workflows, workrooms, notifications, media experiences, and infrastructure required to operate the product.
+My work spans the Flutter application, NestJS backend services, professional and brand experiences, opportunity workflows, real-time communication, workrooms, notifications, media delivery, payments, and mobile release engineering.
 
 ---
 
@@ -22,43 +22,39 @@ Kliqture brings professional discovery, hiring, and collaboration into one platf
 
 Users can:
 
-- Build professional or brand profiles
+- Create professional or brand profiles
 - Showcase skills, projects, and creative work
-- Discover professionals and brands
-- Publish projects and opportunities
+- Discover professionals, brands, and opportunities
+- Publish projects and engagements
 - Seek specific expertise
 - Apply for opportunities
 - Review and select applicants
 - Hire professionals
 - Collaborate remotely
 - Communicate through real-time conversations
-- Organize project work and assigned tasks
-- Manage professional engagements from discovery through delivery
+- Organize work through tasks and workrooms
+- Manage engagements from discovery through delivery
 
 ---
 
 ## Tech Stack
 
 ### Mobile
-
 - Flutter
 - Dart
 
 ### Backend
-
 - NestJS
 - TypeScript
 - REST APIs
 - WebSockets
 
 ### Data & Infrastructure
-
 - PostgreSQL
 - AWS
 - Firebase
 
 ### Platform Engineering
-
 - Push notifications
 - Real-time messaging
 - Media delivery
@@ -70,7 +66,7 @@ Users can:
 
 ## Selected Engineering Work
 
-Some of the systems and product flows I have worked on include:
+Some of the systems and product flows I have built or implemented include:
 
 - Cross-platform mobile architecture with Flutter
 - Professional and business profile experiences
@@ -82,10 +78,10 @@ Some of the systems and product flows I have worked on include:
 - Real-time conversations
 - Collaboration and hire rooms
 - Project task management
-- Notification and deep-linking systems
-- Backend APIs and application state synchronization
-- Production iOS and Android deployment
+- Push notifications and deep linking
+- Backend APIs and application-state synchronization
 - Payment-related workflow engineering
+- Production iOS and Android deployment
 
 ---
 
@@ -101,7 +97,7 @@ Professionals and brands can discover people, work, and opportunities across the
 
 ## Professional & Creative Feed
 
-Kliqture supports different types of professionals and creative work rather than restricting users to a single professional identity.
+Kliqture is designed around multi-skilled professionals and creatives rather than restricting users to a single professional identity.
 
 ### Singer & Songwriter
 
@@ -129,7 +125,7 @@ This example shows a brand seeking a Flutter developer.
 
 ## Projects
 
-Professionals can also showcase projects and work they have created.
+Professionals can showcase projects and work they have created.
 
 ![Animator Project](assets/work-detail-page-showing-an-animator-project.png)
 
@@ -137,13 +133,13 @@ Professionals can also showcase projects and work they have created.
 
 ## Collaboration
 
-Kliqture includes dedicated spaces for people working together after a professional connection has been made.
+Kliqture includes dedicated collaboration spaces for people working together after a professional connection has been made.
 
-### Project Conversation & Deliverables
+### Conversation & Project Deliverables
 
 ![Collaboration Room Conversation](assets/collab-room-conversation-displaying-project-deliverables.png)
 
-### Project Tasks
+### Task Management
 
 ![Project Tasks](assets/project-page-showing-the-tasks.png)
 
@@ -153,9 +149,9 @@ Kliqture includes dedicated spaces for people working together after a professio
 
 The platform includes dedicated workflows for managing professional hiring engagements.
 
-### Work Progress
+### Active Work
 
-![Running Milestone](assets/submit-milestone-sheet-showing-first-milestone-is-running.png)
+![Active Work](assets/submit-milestone-sheet-showing-first-milestone-is-running.png)
 
 ### Releasing Funds
 
@@ -169,20 +165,18 @@ The platform includes dedicated workflows for managing professional hiring engag
 
 ## Engineering Scope
 
-Kliqture is not a UI prototype or tutorial application.
-
-It is a full product involving multiple interconnected systems across mobile, backend, infrastructure, and product engineering.
+Kliqture is a full production product involving multiple interconnected systems across mobile, backend, infrastructure, and product engineering.
 
 A typical workflow can involve:
 
 **Discovery → Opportunity → Application → Selection → Conversation → Workroom → Task Execution → Delivery**
 
-Building these experiences has required handling areas such as:
+Building these experiences has required work across areas such as:
 
 - Complex application state
 - Role-specific user experiences
 - API design and integration
-- Authentication
+- Authentication and authorization
 - Real-time communication
 - File and media handling
 - Push notifications
@@ -215,3 +209,48 @@ Flutter Mobile Application
      │      Firebase / AWS
      │
  Application Data
+```
+
+Real-time functionality is handled through persistent communication services where required.
+
+> This architecture is intentionally high-level. Internal implementation details remain private.
+
+---
+
+## Selected Screens
+
+| Discover | Brand Opportunity |
+|---|---|
+| ![Discover](assets/discover-page.png) | ![Brand Engagement](assets/home-feed-showing-brand-engagement-post.png) |
+
+| Creative Work | Professional Project |
+|---|---|
+| ![Actor](assets/home-feed-showing-an-actor-post.png) | ![Animator Project](assets/work-detail-page-showing-an-animator-project.png) |
+
+| Collaboration | Task Management |
+|---|---|
+| ![Collaboration](assets/collab-room-conversation-displaying-project-deliverables.png) | ![Tasks](assets/project-page-showing-the-tasks.png) |
+
+---
+
+## Product
+
+**Website:** [kliqture.com](https://kliqture.com)
+
+Kliqture is an actively developed commercial product for businesses, brands, skilled professionals, and creatives.
+
+---
+
+## Source Code
+
+The production Flutter and backend repositories are private because Kliqture is a commercial product under active development.
+
+This public repository intentionally contains no proprietary production source code, credentials, internal infrastructure configuration, or sensitive business logic.
+
+Its purpose is to demonstrate:
+
+- The product
+- My engineering responsibilities
+- The systems I have built
+- The technical scope of the application
+- My ability to take a mobile product from concept through production
